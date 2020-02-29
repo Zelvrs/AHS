@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -134,8 +135,11 @@ h2.kerja {
     align-items: center;
     text-align: center;
     justify-content: center;
-    transition: all 1s;
+    transition: all 0.5s;
     
+}
+.card1:hover {
+    transform: translateY(-20px);
 }
 
 
